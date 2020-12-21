@@ -38,7 +38,7 @@ Because the code uses the streamlit.chache utility, when updating the CSV data, 
 
 A "hamburguer menu" should apper at the upper right corner, click it and select the "clear cache" option. Then rerun the app and you will see the updated information.
 
-## Using Ngrok to shate with others
+## Using Ngrok to share with others
 Once you have runned correctly the app in your computer, you can share it with other people by using ngrok service. Just follow this steps:
 
 **1. Download ngrok:**
