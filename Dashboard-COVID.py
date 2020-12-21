@@ -352,9 +352,6 @@ def general_info():
     '''
 (a, b, c, d, e) = get_info(report_data, report_list, summary_dpto)
 
-# Shows last updated datetime of csv dataset
-last_updated(FILE)
-
 # Verifies if there are recovered and deceased cases according to the type of distribution chosen
 if (tipo_grafica == 'Recuperados' and 'Recuperado' in e.index) or (tipo_grafica == 'Fallecidos' and 'Fallecido' in e.index) or (tipo_grafica == 'Reportados'):
 
