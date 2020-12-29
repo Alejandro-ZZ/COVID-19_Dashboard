@@ -1,7 +1,5 @@
 # COVID-19_Dashboard
-Dashboard programed in python and made with Streamlit framework. Shows a brief information about COVID-19 status in Colombia based in open data taken from [GOV.CO](https://www.gov.co/home/). All data in the csv file is procesed and cleaned with the [pandas library](https://pandas.pydata.org/docs/reference/frame.html), graphics are construted with [plotly library](https://plotly.com/python/) and finally, everything is showing up locally with the [streamlit framework](https://docs.streamlit.io/en/stable/api.html).
-
-You can see a demo in the [heroku app](https://alejandrozz-covid-dash.herokuapp.com/) and to know more info, visit: [AlejandroZZ](https://alejandrozz.pythonanywhere.com/dash-covid/) website.
+Dashboard programed in python and made with Streamlit framework. Shows a brief information about COVID-19 status in Colombia based in open data taken from [GOV.CO](https://www.gov.co/home/). All data in the csv file is procesed and cleaned with the [pandas library](https://pandas.pydata.org/docs/reference/frame.html), graphics are construted with [plotly library](https://plotly.com/python/) and finally, everything is showing up locally with the [streamlit framework](https://docs.streamlit.io/en/stable/api.html). You can see a demo in the [heroku app](https://alejandrozz-covid-dash.herokuapp.com/) and to know more info, visit: [AlejandroZZ](https://alejandrozz.pythonanywhere.com/dash-covid/) website.
 
 ## Running locally
 To run this dashboard on you PC, go to the local address where you will save the project, open a bash/windows console there and follow this steps:
