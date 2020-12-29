@@ -31,10 +31,12 @@ To run this dashboard on you PC, go to the local address where you will save the
 **Note:**
 The information showed in the streamlit app is the one read in the "Casos_positivos_de_COVID-19_en_Colombia.csv" file, this is a short data set for probing it. You can go to the complete [dataset](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr/data) and download it by clicking on the "export" link and then choosing the CSV option. Replace the old dataset by coping the .csv file downloaded and pasting it in the "COVID-19_Dashboard" folder.
 
-Everytime any change is done, a message in the upper right corner of your app (in the browser) will appers showing the option to rerun the app.
+Everytime any change is done, a message in the upper right corner of your app (in the browser) will appers showing the option to rerun the app. But before doing this, read the next section "Clearing cache".
 
 ## Clearing cache
-Because the code uses the streamlit.chache utility, when updating the CSV data, you must clear the cache it before reruning the app. The chache can be cleared with a built-in menu in the streamlit app (hidden by default in the code). To display it just comment the line 282 and run again the app.
+Because the code uses the streamlit.chache utility, when updating the CSV data, you must clear the streamlit cache before reruning the app. The chache can be cleared with a built-in menu in the streamlit app (hidden by default in the code). To display it just comment the line 282 and run again the app.
+
+            282   st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 A "hamburguer menu" should apper at the upper right corner, click it and select the "clear cache" option. Then rerun the app and you will see the updated information.
 
