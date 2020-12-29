@@ -21,10 +21,10 @@ To run this dashboard on you PC, go to the local address where you will save the
 
       You can now view your Streamlit app in your browser.
 
-      Local URL: http://localhost:XXXX
-      Network URL: http://XX.XXX.X.XX:XXXX
+      Local URL: http://localhost:8501
+      Network URL: http://54.90.234.205:8501
 
-  The four number after the colon are the port where the app is been executed. The app can be stopped at anytime by pressing **ctrl + C** in the console
+  The numbers after the colon (8501) are the port where the app is been executed. The app can be stopped at anytime by pressing **ctrl + C** in the console
 
 **Note:**
 The information showed in the streamlit app is the one read in the "Casos_positivos_de_COVID-19_en_Colombia.csv" file, this is a short data set for probing it. You can go to the complete [dataset](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr/data) and download it by clicking on the "export" link and then choosing the CSV option. Replace the old dataset by coping the .csv file downloaded and pasting it in the "COVID-19_Dashboard" folder.
@@ -49,13 +49,13 @@ Make sure your Streamlit application is up and running and then open up the fold
 
 **For windows**
  
-      ngrok http XXXX
+      ngrok http 8501
      
 **For Linux**
 
-      ./ngrok http XXXX
+      ./ngrok http 8501
 
-The four numbers (XXXX) are the port where the app is been executing. Finally it will shows a message like this:
+The four numbers (8501) are the port where the Stramlit app is been executing. Finally it will shows a message like this:
 
       Tunnel Status       online                                            
       Version             2.0.19/2.0.19                                     
