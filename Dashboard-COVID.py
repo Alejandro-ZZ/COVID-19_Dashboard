@@ -73,7 +73,7 @@ def load_csv_data(address):
 
     # Changes all cases of same field written different in some columns
     data = data.replace({'Ubicación del caso': {'casa': 'Casa', 'CASA': 'Casa'}})
-    data = data.replace({'Estado': {'moderado': 'Moderado', 'LEVE': 'Leve'}})
+    data = data.replace({'Estado': {'moderado': 'Moderado', 'LEVE': 'Leve', 'leve': 'Leve'}})
     data = data.replace({'Recuperado': {'fallecido': 'Fallecido'}})
 
     #A different way to capitalize fields in a column is using 's.str.capitalize()'
